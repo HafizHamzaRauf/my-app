@@ -1,0 +1,13 @@
+.list {
+  max-width: 30rem;
+  margin: 1rem auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list-item {
+  background-color: aquamarine;
+  padding: 1rem 2rem;
+}

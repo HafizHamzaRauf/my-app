@@ -1,0 +1,46 @@
+.form {
+  max-width: 30rem;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 20%);
+}
+
+.label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.input {
+  width: 100%;
+  border: 0.5px solid rgb(187, 187, 187);
+  height: 1.5rem;
+  padding: 10px;
+}
+.invalid {
+  background-color: rgb(255, 166, 166);
+}
+
+.button {
+  padding: 10px 2rem;
+  background-color: aquamarine;
+  border: none;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: rgb(99, 231, 187);
+  cursor: pointer;
+}
+.invalid-label {
+  color: red;
+}
+
+@media (max-width: 380px) {
+  .button {
+    width: 100%;
+  }
+}
